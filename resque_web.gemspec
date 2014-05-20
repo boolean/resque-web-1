@@ -18,8 +18,6 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "resque"
-  s.add_dependency 'twitter-bootstrap-rails'
   s.add_dependency 'jquery-rails'
-  s.add_dependency 'sass-rails'
   s.add_dependency 'coffee-rails'
 end
